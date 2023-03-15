@@ -1,0 +1,163 @@
+@charset "utf-8";
+body, html{
+  margin:0;
+  padding:0;
+}
+
+table{
+	border: 0;
+	border-color: black;
+}
+
+footer{
+	background-color: black;
+	color: #909090;
+}
+header{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	text-align: center;
+
+	
+}
+body
+{
+	color: black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+#wrapper
+	{
+	text-align: center;
+	width: auto;
+
+
+
+
+		background: ;
+	margin: 0;
+	min-width: 100%;
+		
+	}
+
+content
+{
+	
+	width:600px;
+	
+	
+}
+
+
+@media (max-width : 1080px )
+{
+	.mainbody 
+	{
+		width: auto;
+		textcolor: white;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+
+#fleabg {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-image:url(../images/yellowBGFlea.png)
+}
+#pdbg {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-image:url(../images/yellowBGFlea.png)
+}
+#lgbg {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-image:url(../images/yellowBGFlea.png)
+}
+#fleabg3 {
+	color:#FFF;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-color:#FC0;
+}
+#TWbg {
+	color:#FFF;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-image:url(../images/purpleBG.png)
+}
+#bowlBG {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-color:#0077a1;
+	background-image:url(../images/blueBG.png)
+}
+#dislectekbg {
+	color:#FFF;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-image:url(../images/BG201920x1280.png);
+}
+#protobg {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	color: #FFF;
+	background-image: url(../images/bgprototype.gif);
+}
+}
+
+
+@media (min-width : 1081px )
+{
+	.mainbody 
+	{
+		width: auto;
+		textcolor: white;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+
+#fleabg {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-image: url(../images/bgFlea.png);
+}
+#pdgb {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-image: url(../images/bgFlea.png);
+}
+#fleabg3 {
+	color:#FFF;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-image: url(../images/bgFleaJump.png);
+}
+#dislectekbg {
+	color:#FFF;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-image:url(../images/BG201920x1280.png)
+}
+#TWbg {
+	color:#FFF;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-image: url(../images/bgTW.png);
+}
+#bowlBG {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-image: url(../images/BowlBG.png);
+}
+#protobg {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	color: #FFF;
+	background-image: url(../images/bgprototype.gif);
+}
+
+}
